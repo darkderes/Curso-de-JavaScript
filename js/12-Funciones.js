@@ -1,5 +1,9 @@
-function calculadora()// crear funcion
+function calculadora(numnero1,numero2)// crear funcion
 {
-    console.log("Soy un calculadora");
+    console.log("suma " + (numnero1+numero2));
+    console.log("resta " + (numnero1-numero2));
+    console.log("multiplicacion " + (numnero1*numero2));
+    console.log("division " + (numnero1/numero2));
+
 }
-calculadora(); //forma de llamar a la funcion
+calculadora(12,5); //forma de llamar a la funcion
